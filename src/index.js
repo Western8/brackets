@@ -4,9 +4,8 @@ module.exports = function check(str, bracketsConfig) {
   let bracketsOpen = bracketsConfig.map(item => item[0]);
   let bracketsClose = bracketsConfig.map(item => item[1]);
 
-  //console.log(arr);
-  console.log(bracketsOpen);
-  console.log(bracketsClose);
+  //console.log(bracketsOpen);
+  //console.log(bracketsClose);
 
   for (item of arr) {
     if (bracketsOpen.includes(item)) {
